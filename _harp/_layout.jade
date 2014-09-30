@@ -1,6 +1,9 @@
 doctype
 html
   head
-    link(rel="stylesheet" href="/main.css")
+    link(rel="stylesheet" href="styles/main.css")
   body
-    != yield
+    != partial('_templates/_header')
+
+    section.content.primary
+      != yield

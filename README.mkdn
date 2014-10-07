@@ -2,3 +2,12 @@ Andrew Elster
 =============
 
 This is my personal blog
+
+How to Build
+------------
+
+From the root folder
+
+```
+$ harp compile _harp ./
+```
